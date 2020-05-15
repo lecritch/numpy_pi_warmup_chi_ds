@@ -228,25 +228,11 @@ run_test(x, 'x5')
 ```
 
 
-
-
-    'Hey, you did it.  Good job.'
-
-
-
-
 ```python
 #run this cell to check yer y
 
 run_test(y, 'y5')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 The x and y coordinates of the points inside the circle are 
 $$ (x^2 + y^2)<=\frac{1}{2} $$
