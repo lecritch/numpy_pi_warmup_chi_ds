@@ -787,7 +787,9 @@ Do the same thing for the points in y, and assign them to the variable inside_y
 
 *Eg if `ex1 = np.array([1,2,3])` and `ex2 = np.array([5,6,7])`*, 
 
+
 `ex1[ex1*5+ex2*10<80]`
+
 = 
 
 "at each index value, 
