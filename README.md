@@ -173,19 +173,19 @@ The radius of the circle is $\frac{1}{2}$, and the area of the circle is $\pi \t
 
 If we randomly throw points inside the square: 
 
-$$ \lim \limits_{points \to \infty} (area covered by all points) = 1 $$
+$ \lim \limits_{points \to \infty} ($area covered by all points$$) = 1 $
 
 and
 
-$$ \lim \limits_{{points} \to \infty} (area covered by points in circle) = \frac{\pi}{4} $$
+$ \lim \limits_{{points} \to \infty} ($area covered by points in circle$) = \frac{\pi}{4} $
 
 So, if we randomly throw *a finite number* of points in the square,
 
- $$ \frac{points that land in circle}{total points} \approx \frac{\pi}{4} $$
+$$\frac{circle points}{total points} \approx \frac{\pi}{4}$$
 
 and
 
-$$ 4 \times \frac{\mbox{points that land in circle}}{\mbox{total points}} \approx \pi $$
+$$ 4 \times \frac{circle points}{total points} \approx \pi $$
 
 #### Look just tell me what we're doing here
 
@@ -248,13 +248,15 @@ Do the same thing for the points in y, and assign them to the variable inside_y
 
 \begin{align}
 ex1[ex1*5+ex2*10<80] \\
-= \\ 
-\mbox{"at each index value}, \\
-\mbox{if (the value of ex1 at that index)*5 +} \\
-\mbox{(the value of ex2 at that index)*10 < 80}, \\
-\mbox{include the value of ex1 at that index"} \\
 = \\
-[1,2] 
+\end{align}
+at each index value, 
+if (the value of ex1 at that index)*5 + 
+(the value of ex2 at that index)*10 < 80,
+include the value of ex1 at that index" 
+\begin{align}
+= \\
+[1,2] \\
 \end{align}
 
 
