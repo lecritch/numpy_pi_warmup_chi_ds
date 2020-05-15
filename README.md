@@ -637,7 +637,7 @@ run_test(y, 'y4')
 
 
 
-# Part 2: Estimating pi (with vis!)
+# Part 2: Estimating pi (with viz!)
 
 (This is a little bit more math-y than the content we've covered so far)
 
@@ -663,67 +663,9 @@ import matplotlib.pyplot as plt
 
 Picture a circle perfectly circumscribed inside a unit square
 
-or run the cell below
+or just look at the viz below
 
-
-```python
-#run this cell without changes
-
-square = plt.Rectangle((0,0), 1,1, fill=False, color='blue')
-circle = plt.Circle((.5, .5), .5, color='yellow')
-
-fig, ax = plt.subplots()
-ax.add_artist(square)
-ax.add_artist(circle)
-
-#set the axis a little beyond the square
-ax.set_xlim(right=1.5)
-ax.set_ylim(top=1.5)
-
-#make the aspect ratios on dimensions the same
-ax.set_aspect('equal')
-
-#remove the border from the top and right side of the figure
-ax.spines['top'].set_visible(False)
-ax.spines['right'].set_visible(False)
-
-plt.show()
-```
-
-
-![png](index_files/index_41_0.png)
-
-
-
-```python
-#__SOLUTION__
-
-#run this cell without changes
-
-square = plt.Rectangle((0,0), 1,1, fill=False, color='blue')
-circle = plt.Circle((.5, .5), .5, color='yellow')
-
-fig, ax = plt.subplots()
-ax.add_artist(square)
-ax.add_artist(circle)
-
-#set the axis a little beyond the square
-ax.set_xlim(right=1.5)
-ax.set_ylim(top=1.5)
-
-#make the aspect ratios on dimensions the same
-ax.set_aspect('equal')
-
-#remove the border from the top and right side of the figure
-ax.spines['top'].set_visible(False)
-ax.spines['right'].set_visible(False)
-
-plt.show()
-```
-
-
-![png](index_files/index_42_0.png)
-
+![](viz/unit_square.png)
 
 #### Math refresher
 
@@ -1033,7 +975,7 @@ plt.show()
 ```
 
 
-![png](index_files/index_69_0.png)
+![png](index_files/index_67_0.png)
 
 
 You should produce a figure like the one below (which has a figsize(20,10) and used ax.set_aspect('equal'), fyi)
