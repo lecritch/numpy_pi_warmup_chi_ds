@@ -733,7 +733,7 @@ The radius of the circle is $\frac{1}{2}$, and the area of the circle is $\pi \t
 
 If we randomly throw points inside the square: 
 
-$ \lim \limits_{points \to \infty} ($area covered by all points$$) = 1 $
+$ \lim \limits_{points \to \infty} ($area covered by all points$) = 1 $
 
 and
 
@@ -741,11 +741,11 @@ $ \lim \limits_{{points} \to \infty} ($area covered by points in circle$) = \fra
 
 So, if we randomly throw *a finite number* of points in the square,
 
-$$\frac{circle points}{total points} \approx \frac{\pi}{4}$$
+$$\frac{\#ofCircle Points}{\#ofTotal Points} \approx \frac{\pi}{4}$$
 
 and
 
-$$ 4 \times \frac{circle points}{total points} \approx \pi $$
+$$ 4 \times \frac{\#ofCircle Points}{\#ofTotal Points} \approx \pi $$
 
 #### Look just tell me what we're doing here
 
@@ -845,18 +845,20 @@ Do the same thing for the points in y, and assign them to the variable inside_y
 
 *Eg if `ex1 = np.array([1,2,3])` and `ex2 = np.array([5,6,7])`*, 
 
-\begin{align}
-ex1[ex1*5+ex2*10<80] \\
-= \\
-\end{align}
-at each index value, 
-if (the value of ex1 at that index)*5 + 
+`ex1[ex1*5+ex2*10<80]`
+= 
+
+"at each index value, 
+
+if (the value of ex1 at that index)*5 +
+
 (the value of ex2 at that index)*10 < 80,
+
 include the value of ex1 at that index" 
-\begin{align}
-= \\
-[1,2] \\
-\end{align}
+
+= 
+
+`[1,2]`
 
 
 *Hint 2: the formula for a circle centered at (h,k) with radius r is* 
