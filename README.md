@@ -188,13 +188,6 @@ run_test(x, 'x1')
 ```
 
 
-
-
-    'Hey, you did it.  Good job.'
-
-
-
-
 ```python
 #__SOLUTION__
 
@@ -357,13 +350,6 @@ run_test(y, 'y1')
 ```
 
 
-
-
-    'Hey, you did it.  Good job.'
-
-
-
-
 ```python
 #__SOLUTION__
 
@@ -417,33 +403,10 @@ x,y
 
 
 ```python
-test_dict['x2']
-```
-
-
-
-
-    array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-           0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-           0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-           0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-           0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
-
-
-
-
-```python
 #run this cell to test yer x
 
 run_test(x, 'x2')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 
 ```python
@@ -465,13 +428,6 @@ run_test(x, 'x2')
 
 run_test(y, 'y2')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 
 ```python
@@ -560,13 +516,6 @@ run_test(x, 'x3')
 ```
 
 
-
-
-    'Hey, you did it.  Good job.'
-
-
-
-
 ```python
 #__SOLUTION__
 
@@ -586,13 +535,6 @@ run_test(x, 'x3')
 
 run_test(y, 'y3')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 
 ```python
@@ -661,13 +603,6 @@ run_test(x, 'x4')
 ```
 
 
-
-
-    'Hey, you did it.  Good job.'
-
-
-
-
 ```python
 #__SOLUTION__
 
@@ -687,13 +622,6 @@ run_test(x, 'x4')
 
 run_test(y, 'y4')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 
 ```python
@@ -763,7 +691,7 @@ plt.show()
 ```
 
 
-![png](index_files/index_42_0.png)
+![png](index_files/index_41_0.png)
 
 
 
@@ -794,7 +722,7 @@ plt.show()
 ```
 
 
-![png](index_files/index_43_0.png)
+![png](index_files/index_42_0.png)
 
 
 #### Math refresher
@@ -977,13 +905,6 @@ run_test(inside_x, 'inside_x')
 ```
 
 
-
-
-    'Hey, you did it.  Good job.'
-
-
-
-
 ```python
 #__SOLUTION__
 run_test(inside_x, 'inside_x')
@@ -1002,13 +923,6 @@ run_test(inside_x, 'inside_x')
 
 run_test(inside_y, 'inside_y')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 
 ```python
@@ -1053,17 +967,10 @@ outside_x, outside_y = x[(x-.5)**2+(y-.5)**2>(.5)**2], y[(x-.5)**2+(y-.5)**2>(.5
 
 
 ```python
-#run this cell to check outside_x
+# #run this cell to check outside_x
 
 run_test(outside_x, 'outside_x')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 
 ```python
@@ -1087,13 +994,6 @@ run_test(outside_x, 'outside_x')
 
 run_test(outside_y, 'outside_y')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 
 ```python
@@ -1143,7 +1043,7 @@ plt.show()
 ```
 
 
-![png](index_files/index_70_0.png)
+![png](index_files/index_69_0.png)
 
 
 You should produce a figure like the one below (which has a figsize(20,10) and used ax.set_aspect('equal'), fyi)
@@ -1241,12 +1141,6 @@ obj_names = obj_names[:-2]
 print()
 ```
 
-    pts_in_circle? Hey, you did it.  Good job.
-    pts_out_circle? Hey, you did it.  Good job.
-    pi_est? Hey, you did it.  Good job.
-    
-
-
 
 ```python
 #__SOLUTION__
@@ -1274,13 +1168,6 @@ run_test(pi_est_error_pct, 'pi_est_error_pct')
 ```
 
 
-
-
-    'Hey, you did it.  Good job.'
-
-
-
-
 ```python
 #__SOLUTION__
 run_test(pi_est_error_pct, 'pi_est_error_pct')
@@ -1299,13 +1186,6 @@ run_test(pi_est_error_pct, 'pi_est_error_pct')
 
 run_test(pi_est_error_pct_rounded, 'pi_est_error_pct_rounded')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 
 ```python
