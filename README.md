@@ -799,13 +799,6 @@ run_test(x, 'x5')
 ```
 
 
-
-
-    'Hey, you did it.  Good job.'
-
-
-
-
 ```python
 #__SOLUTION__
 
@@ -825,13 +818,6 @@ run_test(x, 'x5')
 
 run_test(y, 'y5')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 
 ```python
