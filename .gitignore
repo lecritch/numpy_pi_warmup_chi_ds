@@ -1,4 +1,4 @@
-.DS_Store
-.ipynb_checkpoints
-index_files
-__pycache__
+**/.DS_Store
+**/.ipynb_checkpoints
+**/index_files
+**/__pycache__

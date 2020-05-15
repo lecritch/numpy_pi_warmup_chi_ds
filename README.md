@@ -535,7 +535,7 @@ run_test(y, 'y4')
 
 First import pyplot from matplotlib under the alias plt
 
-Also, run the commend %matplotlib inline so that jupyter renders the plots inside the notebook
+Also, run the command `%matplotlib inline` so that jupyter renders the plots inside the notebook
 
 
 ```python
