@@ -119,7 +119,7 @@ run_test(x, 'x4')
 run_test(y, 'y4')
 ```
 
-# Part 2: Estimating pi (with vis!)
+# Part 2: Estimating pi (with viz!)
 
 (This is a little bit more math-y than the content we've covered so far)
 
@@ -134,36 +134,9 @@ Also, run the command `%matplotlib inline` so that jupyter renders the plots ins
 
 Picture a circle perfectly circumscribed inside a unit square
 
-or run the cell below
+or just look at the viz below
 
-
-```python
-#run this cell without changes
-
-square = plt.Rectangle((0,0), 1,1, fill=False, color='blue')
-circle = plt.Circle((.5, .5), .5, color='yellow')
-
-fig, ax = plt.subplots()
-ax.add_artist(square)
-ax.add_artist(circle)
-
-#set the axis a little beyond the square
-ax.set_xlim(right=1.5)
-ax.set_ylim(top=1.5)
-
-#make the aspect ratios on dimensions the same
-ax.set_aspect('equal')
-
-#remove the border from the top and right side of the figure
-ax.spines['top'].set_visible(False)
-ax.spines['right'].set_visible(False)
-
-plt.show()
-```
-
-
-![png](index_files/index_25_0.png)
-
+![](viz/unit_square.png)
 
 #### Math refresher
 
