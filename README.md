@@ -34,13 +34,6 @@ Create a variable called x that is a list of 100 0s
 run_test(x, 'x1')
 ```
 
-
-
-
-    'Hey, you did it.  Good job.'
-
-
-
 Find another way to create a list of 100 0s; assign it to a new variable called y
 
 
@@ -55,13 +48,6 @@ Find another way to create a list of 100 0s; assign it to a new variable called 
 run_test(y, 'y1')
 ```
 
-
-
-
-    'Hey, you did it.  Good job.'
-
-
-
 Turn x and y into numpy arrays
 
 
@@ -71,33 +57,10 @@ Turn x and y into numpy arrays
 
 
 ```python
-test_dict['x2']
-```
-
-
-
-
-    array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-           0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-           0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-           0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-           0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
-
-
-
-
-```python
 #run this cell to test yer x
 
 run_test(x, 'x2')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 
 ```python
@@ -105,13 +68,6 @@ run_test(x, 'x2')
 
 run_test(y, 'y2')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 In both x and y, insert all of the first 100 [positive integers](https://mathworld.wolfram.com/PositiveInteger.html) in-between the 0s
 
@@ -134,25 +90,11 @@ run_test(x, 'x3')
 ```
 
 
-
-
-    'Hey, you did it.  Good job.'
-
-
-
-
 ```python
 #run this cell to test yer y
 
 run_test(y, 'y3')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 Remove all the 0s from both x and y
 
@@ -171,25 +113,11 @@ run_test(x, 'x4')
 ```
 
 
-
-
-    'Hey, you did it.  Good job.'
-
-
-
-
 ```python
 #run this cell to test yer y
 
 run_test(y, 'y4')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 # Part 2: Estimating pi (with vis!)
 
@@ -234,7 +162,7 @@ plt.show()
 ```
 
 
-![png](index_files/index_26_0.png)
+![png](index_files/index_25_0.png)
 
 
 #### Math refresher
@@ -361,25 +289,11 @@ run_test(inside_x, 'inside_x')
 ```
 
 
-
-
-    'Hey, you did it.  Good job.'
-
-
-
-
 ```python
 #run this cell to check inside_y
 
 run_test(inside_y, 'inside_y')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 Do the same thing for the points that lie within the square but outside the circle
 
@@ -394,17 +308,10 @@ assign them to the variables outside_x and outside_y, respectively
 
 
 ```python
-#run this cell to check outside_x
+# #run this cell to check outside_x
 
 run_test(outside_x, 'outside_x')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 
 ```python
@@ -412,13 +319,6 @@ run_test(outside_x, 'outside_x')
 
 run_test(outside_y, 'outside_y')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 Now, create a scatter plot of the "inside circle" points.  Color them blue, with alpha=.8 and edgecolor=None.
 
@@ -479,12 +379,6 @@ Print a sentence using the above variables that includes the estimate of pi and 
 print()
 ```
 
-    pts_in_circle? Hey, you did it.  Good job.
-    pts_out_circle? Hey, you did it.  Good job.
-    pi_est? Hey, you did it.  Good job.
-    
-
-
 
 ```python
 #run this cell to test pct error
@@ -493,25 +387,11 @@ run_test(pi_est_error_pct, 'pi_est_error_pct')
 ```
 
 
-
-
-    'Hey, you did it.  Good job.'
-
-
-
-
 ```python
 #run this cell to test rounded pct error
 
 run_test(pi_est_error_pct_rounded, 'pi_est_error_pct_rounded')
 ```
-
-
-
-
-    'Hey, you did it.  Good job.'
-
-
 
 **S t r e t c h goal 2**
 
