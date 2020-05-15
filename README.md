@@ -589,15 +589,15 @@ The radius of the circle is $\frac{1}{2}$, and the area of the circle is $\pi \t
 
 If we randomly throw points inside the square: 
 
-$$ \lim \limits_{points \to \infty} (\mbox{area covered by all points}) = 1 $$
+$$ \lim \limits_{points \to \infty} (area covered by all points) = 1 $$
 
 and
 
-$$ \lim \limits_{{points} \to \infty} (\mbox{area covered by points in circle}) = \frac{\pi}{4} $$
+$$ \lim \limits_{{points} \to \infty} (area covered by points in circle) = \frac{\pi}{4} $$
 
 So, if we randomly throw *a finite number* of points in the square,
 
- $$ \frac{\mbox{points that land in circle}}{\mbox{total points}} \approx \frac{\pi}{4} $$
+ $$ \frac{points that land in circle}{total points} \approx \frac{\pi}{4} $$
 
 and
 
