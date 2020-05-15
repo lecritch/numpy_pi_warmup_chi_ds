@@ -62,3 +62,26 @@ def run_test(obj, name):
         return 'Hey, you did it.  Good job.'
     except AssertionError:
         return 'Try again'
+    
+def unit_square():
+    square = plt.Rectangle((0,0), 1,1, fill=False, color='blue')
+    circle = plt.Circle((.5, .5), .5, color='yellow')
+
+    fig, ax = plt.subplots()
+    ax.add_artist(square)
+    ax.add_artist(circle)
+
+    #set the axis a little beyond the square
+    ax.set_xlim(right=1.5)
+    ax.set_ylim(top=1.5)
+
+    #make the aspect ratios on dimensions the same
+    ax.set_aspect('equal')
+
+    #remove the border from the top and right side of the figure
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    plt.savefig('viz/unit_square.png')
+    plt.show()
+    
+    return
